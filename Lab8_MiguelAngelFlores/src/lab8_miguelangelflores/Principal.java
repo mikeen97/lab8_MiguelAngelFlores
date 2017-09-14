@@ -36,6 +36,7 @@ public class Principal extends javax.swing.JFrame {
     private void initComponents() {
 
         jFormattedTextField1 = new javax.swing.JFormattedTextField();
+        jCheckBoxMenuItem6 = new javax.swing.JCheckBoxMenuItem();
         jTabbedPane3 = new javax.swing.JTabbedPane();
         jPanel2 = new javax.swing.JPanel();
         jTabbedPane4 = new javax.swing.JTabbedPane();
@@ -139,17 +140,20 @@ public class Principal extends javax.swing.JFrame {
         jButton10 = new javax.swing.JButton();
         tf_borrar = new javax.swing.JTextField();
         jButton11 = new javax.swing.JButton();
-        jPanel14 = new javax.swing.JPanel();
-        jScrollPane6 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
-        jButton12 = new javax.swing.JButton();
-        jPanel15 = new javax.swing.JPanel();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        jCheckBoxMenuItem1 = new javax.swing.JCheckBoxMenuItem();
+        jCheckBoxMenuItem2 = new javax.swing.JCheckBoxMenuItem();
+        jCheckBoxMenuItem3 = new javax.swing.JCheckBoxMenuItem();
+        jCheckBoxMenuItem4 = new javax.swing.JCheckBoxMenuItem();
+        jMenu2 = new javax.swing.JMenu();
+        jCheckBoxMenuItem5 = new javax.swing.JCheckBoxMenuItem();
+        jCheckBoxMenuItem7 = new javax.swing.JCheckBoxMenuItem();
 
         jFormattedTextField1.setText("jFormattedTextField1");
+
+        jCheckBoxMenuItem6.setSelected(true);
+        jCheckBoxMenuItem6.setText("jCheckBoxMenuItem6");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -238,7 +242,7 @@ public class Principal extends javax.swing.JFrame {
                     .addComponent(tf_lamiaNumeroBranquias, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(33, 33, 33)
                 .addComponent(jButton2)
-                .addContainerGap(170, Short.MAX_VALUE))
+                .addContainerGap(159, Short.MAX_VALUE))
         );
 
         jTabbedPane4.addTab("Lamias", jPanel4);
@@ -291,7 +295,7 @@ public class Principal extends javax.swing.JFrame {
                     .addComponent(Altura, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(39, 39, 39)
                 .addComponent(jButton3)
-                .addContainerGap(216, Short.MAX_VALUE))
+                .addContainerGap(205, Short.MAX_VALUE))
         );
 
         jTabbedPane4.addTab("Amadriades", jPanel5);
@@ -356,7 +360,7 @@ public class Principal extends javax.swing.JFrame {
                     .addComponent(tf_silfidesNumeroAlas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jButton4)
-                .addContainerGap(220, Short.MAX_VALUE))
+                .addContainerGap(209, Short.MAX_VALUE))
         );
 
         jTabbedPane4.addTab("Silfides", jPanel6);
@@ -417,7 +421,7 @@ public class Principal extends javax.swing.JFrame {
                     .addComponent(tf_salamandrasNumeroAlas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(31, 31, 31)
                 .addComponent(jButton5)
-                .addContainerGap(207, Short.MAX_VALUE))
+                .addContainerGap(196, Short.MAX_VALUE))
         );
 
         jTabbedPane4.addTab("Salamandras", jPanel7);
@@ -540,7 +544,7 @@ public class Principal extends javax.swing.JFrame {
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel26)
                     .addComponent(tf_lamiasModificarBranquias, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 29, Short.MAX_VALUE)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
                         .addComponent(jButton6)
@@ -624,7 +628,7 @@ public class Principal extends javax.swing.JFrame {
                             .addComponent(tf_amadriadesModificarAltura, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(32, 32, 32)
                         .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
                         .addComponent(jButton7)
                         .addGap(47, 47, 47))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
@@ -721,7 +725,7 @@ public class Principal extends javax.swing.JFrame {
                             .addComponent(tf_SilfidesModificarNumeroAlas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(18, 18, 18)
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 22, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 11, Short.MAX_VALUE)
                         .addComponent(jButton8)
                         .addGap(46, 46, 46))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
@@ -810,7 +814,7 @@ public class Principal extends javax.swing.JFrame {
                     .addComponent(tf_SalamandraModificarNumeroAlas, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 17, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jButton9)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(pos_Salamandras, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -886,97 +890,75 @@ public class Principal extends javax.swing.JFrame {
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(tf_borrar, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton11))
-                .addContainerGap(59, Short.MAX_VALUE))
+                .addContainerGap(48, Short.MAX_VALUE))
         );
 
         jTabbedPane3.addTab("Eliminar", jPanel13);
 
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jTextArea1.setText("Este es un juego para la organizacion \nde Honduras, ya que se encuentra\nen conflico con muchas maras, es por eso\nque recurrieron a los seres magicos que \nson llamados Hadas y de estos se \nencuentran muchos tipos.\nAventurate a una lluvia de peleas, ya \nque se necesita a un maton como usted.\n\nLe deseamos suerte\n\nAtt. DPI (Direccion Policial de Investigacion)\n\n");
-        jScrollPane6.setViewportView(jTextArea1);
+        jMenu1.setText("Archivos");
 
-        jButton12.setText("Poema");
-
-        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
-        jPanel14.setLayout(jPanel14Layout);
-        jPanel14Layout.setHorizontalGroup(
-            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel14Layout.createSequentialGroup()
-                .addGap(23, 23, 23)
-                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton12)
-                    .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 389, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(37, Short.MAX_VALUE))
-        );
-        jPanel14Layout.setVerticalGroup(
-            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel14Layout.createSequentialGroup()
-                .addGap(48, 48, 48)
-                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 256, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 84, Short.MAX_VALUE)
-                .addComponent(jButton12)
-                .addGap(21, 21, 21))
-        );
-
-        jTabbedPane3.addTab("About the program", jPanel14);
-
-        jButton13.setText("Abrir documento");
-        jButton13.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBoxMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_H, java.awt.event.InputEvent.CTRL_MASK));
+        jCheckBoxMenuItem1.setSelected(true);
+        jCheckBoxMenuItem1.setText("Guardar");
+        jCheckBoxMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton13ActionPerformed(evt);
+                jCheckBoxMenuItem1ActionPerformed(evt);
             }
         });
+        jMenu1.add(jCheckBoxMenuItem1);
 
-        jButton14.setText("Guardar");
-        jButton14.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBoxMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_C, java.awt.event.InputEvent.CTRL_MASK));
+        jCheckBoxMenuItem2.setSelected(true);
+        jCheckBoxMenuItem2.setText("Guardar Como");
+        jCheckBoxMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton14ActionPerformed(evt);
+                jCheckBoxMenuItem2ActionPerformed(evt);
             }
         });
+        jMenu1.add(jCheckBoxMenuItem2);
 
-        jButton15.setText("Guardar Como");
-        jButton15.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBoxMenuItem3.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_MASK));
+        jCheckBoxMenuItem3.setSelected(true);
+        jCheckBoxMenuItem3.setText("Abrir");
+        jCheckBoxMenuItem3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton15ActionPerformed(evt);
+                jCheckBoxMenuItem3ActionPerformed(evt);
             }
         });
+        jMenu1.add(jCheckBoxMenuItem3);
 
-        jButton16.setText("Salir del Programa");
-        jButton16.addActionListener(new java.awt.event.ActionListener() {
+        jCheckBoxMenuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_MASK));
+        jCheckBoxMenuItem4.setSelected(true);
+        jCheckBoxMenuItem4.setText("Salir");
+        jCheckBoxMenuItem4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton16ActionPerformed(evt);
+                jCheckBoxMenuItem4ActionPerformed(evt);
             }
         });
+        jMenu1.add(jCheckBoxMenuItem4);
 
-        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
-        jPanel15.setLayout(jPanel15Layout);
-        jPanel15Layout.setHorizontalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel15Layout.createSequentialGroup()
-                .addGap(155, 155, 155)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jButton13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jButton16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(175, Short.MAX_VALUE))
-        );
-        jPanel15Layout.setVerticalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel15Layout.createSequentialGroup()
-                .addGap(75, 75, 75)
-                .addComponent(jButton13)
-                .addGap(18, 18, 18)
-                .addComponent(jButton15)
-                .addGap(18, 18, 18)
-                .addComponent(jButton14)
-                .addGap(18, 18, 18)
-                .addComponent(jButton16)
-                .addContainerGap(211, Short.MAX_VALUE))
-        );
+        jMenuBar1.add(jMenu1);
 
-        jTabbedPane3.addTab("Abrir/Recuperar Archivos", jPanel15);
+        jMenu2.setText("About Program");
+
+        jCheckBoxMenuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_MASK));
+        jCheckBoxMenuItem5.setSelected(true);
+        jCheckBoxMenuItem5.setText("About Program");
+        jCheckBoxMenuItem5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBoxMenuItem5ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jCheckBoxMenuItem5);
+
+        jCheckBoxMenuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_X, java.awt.event.InputEvent.ALT_MASK | java.awt.event.InputEvent.CTRL_MASK));
+        jCheckBoxMenuItem7.setSelected(true);
+        jCheckBoxMenuItem7.setText("Poema");
+        jMenu2.add(jCheckBoxMenuItem7);
+
+        jMenuBar1.add(jMenu2);
+
+        setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -984,7 +966,7 @@ public class Principal extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jTabbedPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 454, Short.MAX_VALUE)
+                .addComponent(jTabbedPane3)
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -998,59 +980,6 @@ public class Principal extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        String Nombre = tf_lamiaNombre.getText();;
-        int edad = Integer.parseInt(tf_lamiaEdad.getText());
-        double altura = Double.parseDouble(tf_lamiaAltura.getText()), salud = 475, poder = 57;
-        int branquias = Integer.parseInt(tf_lamiaNumeroBranquias.getText());
-        int aletas = Integer.parseInt(tf_lamiaAletas.getText());
-        Hadas lamia = new Lamias(aletas, branquias, Nombre, aletas, edad, salud, poder);
-        ListHadas.add(lamia);
-        JOptionPane.showMessageDialog(this, "Se a agregado exitosamente");
-    }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        String Nombre = tf_amadriadesNombre.getText();
-        double salud = 373;
-        double poder = 78;
-        double saludArbol = 173;
-        int edad = Integer.parseInt(tf_amadriadesEdad.getText());
-        double altura = Float.parseFloat(Altura.getText());
-        Hadas Hamadrades = new Hamadriades(altura, Nombre, ABORT, edad, salud, poder);
-        ListHadas.add(Hamadrades);
-        JOptionPane.showMessageDialog(this, "Se a agregado exitosamente");
-
-    }//GEN-LAST:event_jButton3ActionPerformed
-
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
-        double salud = 563;
-        double poder = 67;
-        int alas = Integer.parseInt(tf_silfidesNumeroAlas.getText());
-        String Nombre = tf_silfidesNombre.getText();
-        int edad = Integer.parseInt(tf_silfidesEdad.getText());
-        double altura = Float.parseFloat(tf_silfidesAltura.getText());
-        ListHadas.add(new Silfides(alas, Nombre, alas, edad, salud, poder));
-        JOptionPane.showMessageDialog(this, "Se a agregado exitosamente");
-
-    }//GEN-LAST:event_jButton4ActionPerformed
-
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        double salud = 683;
-        double poder = 71;
-        String Nombre = tf_salamandrasNombre.getText();
-        int edad = Integer.parseInt(tf_salamandrasEdad.getText());
-        double altura = Double.parseDouble(tf_salamandrasAltura.getText());
-        int alas = Integer.parseInt(tf_salamandrasNumeroAlas.getText());
-        ListHadas.add(new Salamandras(alas, Nombre, alas, edad, salud, poder));
-
-        JOptionPane.showMessageDialog(this, "Se a agregado exitosamente");
-
-    }//GEN-LAST:event_jButton5ActionPerformed
-
-    private void jTabbedPane3StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jTabbedPane3StateChanged
-
-    }//GEN-LAST:event_jTabbedPane3StateChanged
-
     private void jTabbedPane3MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTabbedPane3MouseEntered
         /*
         pg2.setValue((int) cb_player2.getItemAt(cb_player2.getSelectedIndex()).getSalud());
@@ -1059,65 +988,26 @@ public class Principal extends javax.swing.JFrame {
          */
     }//GEN-LAST:event_jTabbedPane3MouseEntered
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        String Nombre = tf_SalamandraModificarNombre.getText();
-        int edad = Integer.parseInt(tf_SalamandraModificarEdad.getText()), altura = Integer.parseInt(tf_SalamandraModificarAltura.getText()), alas = Integer.parseInt(tf_SalamandraModificarNumeroAlas.getText());
-        int posicion = Integer.parseInt(pos_Salamandras.getText());
-        ListHadas.get(posicion).setEdad(edad);
-        ListHadas.get(posicion).setNombre(Nombre);
-        ListHadas.get(posicion).setAltura(altura);
-        ((Salamandras) ListHadas.get(posicion)).setAlas(alas);
+    private void jTabbedPane3StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jTabbedPane3StateChanged
 
-    }//GEN-LAST:event_jButton9ActionPerformed
+    }//GEN-LAST:event_jTabbedPane3StateChanged
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        int alas = Integer.parseInt(tf_SilfidesModificarNumeroAlas.getText());
-        String Nombre = tf_SilfidesModificarNombre.getText();
-        int edad = Integer.parseInt(tf_SilfidesModificarEdad.getText());
-        int altura = Integer.parseInt(tf_SilfidesModificarAltura.getText());
-        int posicion = Integer.parseInt(pos_Silfides.getText());
-        ListHadas.get(posicion).setEdad(edad);
-        ListHadas.get(posicion).setNombre(Nombre);
-        ListHadas.get(posicion).setAltura(altura);
-        ((Silfides) ListHadas.get(posicion)).setAlas(alas);
-
-    }//GEN-LAST:event_jButton8ActionPerformed
-
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        String Nombre = tf_amadriadesModificarNombre.getText();
-        int edad = Integer.parseInt(tf_amadriadesModificarEdad.getText());
-        int altura = Integer.parseInt(tf_amadriadesModificarAltura.getText());
-        int posicion = Integer.parseInt(pos_hamadriades.getText());
-        ListHadas.get(posicion).setEdad(edad);
-        ListHadas.get(posicion).setNombre(Nombre);
-        ListHadas.get(posicion).setAltura(altura);
-    }//GEN-LAST:event_jButton7ActionPerformed
-
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        String Nombre = tf_lamiasModificarNombre.getText();
-        int edad = Integer.parseInt(tf_lamiasModificarEdad.getText());
-        int altura = Integer.parseInt(tf_lamiasModificarAltura.getText());
-        int branquias = Integer.parseInt(tf_lamiasModificarBranquias.getText());
-        int aletas = Integer.parseInt(tf_lamiasModificarAletas.getText()), cont = 0;
-        int posicion = Integer.parseInt(pos_lamias.getText());
-        ListHadas.get(posicion).setEdad(edad);
-        ListHadas.get(posicion).setNombre(Nombre);
-        ListHadas.get(posicion).setAltura(altura);
-        ((Lamias) ListHadas.get(posicion)).setAletas(aletas);
-        ((Lamias) ListHadas.get(posicion)).setBranquias(branquias);
-    }//GEN-LAST:event_jButton6ActionPerformed
-
-    private void tf_lamiasModificarBranquiasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_lamiasModificarBranquiasActionPerformed
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        int pos_borrar = Integer.parseInt(tf_borrar.getText());
+        ListHadas.remove(pos_borrar);
         // TODO add your handling code here:
-    }//GEN-LAST:event_tf_lamiasModificarBranquiasActionPerformed
+    }//GEN-LAST:event_jButton11ActionPerformed
 
-    private void tf_SilfidesModificarAlturaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_SilfidesModificarAlturaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_tf_SilfidesModificarAlturaActionPerformed
-
-    private void pos_lamiasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pos_lamiasActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_pos_lamiasActionPerformed
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        String atributos = "";
+        if (tab1.getSelectedIndex() == 0) {
+            atributos = "";
+            for (Hadas t1 : ListHadas) {
+                atributos += ListHadas.indexOf(t1) + " " + t1 + "\n";
+            }
+            ta_todos.setText(atributos);
+        }        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton10ActionPerformed
 
     private void tab1StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_tab1StateChanged
         String atributos = "";
@@ -1161,51 +1051,142 @@ public class Principal extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_tab1StateChanged
 
-    private void pos_hamadriadesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pos_hamadriadesActionPerformed
+    private void pos_SalamandrasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pos_SalamandrasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pos_hamadriadesActionPerformed
+    }//GEN-LAST:event_pos_SalamandrasActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        String Nombre = tf_SalamandraModificarNombre.getText();
+        int edad = Integer.parseInt(tf_SalamandraModificarEdad.getText()), altura = Integer.parseInt(tf_SalamandraModificarAltura.getText()), alas = Integer.parseInt(tf_SalamandraModificarNumeroAlas.getText());
+        int posicion = Integer.parseInt(pos_Salamandras.getText());
+        ListHadas.get(posicion).setEdad(edad);
+        ListHadas.get(posicion).setNombre(Nombre);
+        ListHadas.get(posicion).setAltura(altura);
+        ((Salamandras) ListHadas.get(posicion)).setAlas(alas);
+    }//GEN-LAST:event_jButton9ActionPerformed
 
     private void pos_SilfidesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pos_SilfidesActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_pos_SilfidesActionPerformed
 
-    private void pos_SalamandrasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pos_SalamandrasActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_pos_SalamandrasActionPerformed
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        int alas = Integer.parseInt(tf_SilfidesModificarNumeroAlas.getText());
+        String Nombre = tf_SilfidesModificarNombre.getText();
+        int edad = Integer.parseInt(tf_SilfidesModificarEdad.getText());
+        int altura = Integer.parseInt(tf_SilfidesModificarAltura.getText());
+        int posicion = Integer.parseInt(pos_Silfides.getText());
+        ListHadas.get(posicion).setEdad(edad);
+        ListHadas.get(posicion).setNombre(Nombre);
+        ListHadas.get(posicion).setAltura(altura);
+        ((Silfides) ListHadas.get(posicion)).setAlas(alas);
+    }//GEN-LAST:event_jButton8ActionPerformed
 
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        String atributos = "";
-        if (tab1.getSelectedIndex() == 0) {
-            atributos = "";
-            for (Hadas t1 : ListHadas) {
-                atributos += ListHadas.indexOf(t1) + " " + t1 + "\n";
-            }
-            ta_todos.setText(atributos);
-        }        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton10ActionPerformed
+    private void tf_SilfidesModificarAlturaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_SilfidesModificarAlturaActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_SilfidesModificarAlturaActionPerformed
+
+    private void pos_hamadriadesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pos_hamadriadesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pos_hamadriadesActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        String Nombre = tf_amadriadesModificarNombre.getText();
+        int edad = Integer.parseInt(tf_amadriadesModificarEdad.getText());
+        int altura = Integer.parseInt(tf_amadriadesModificarAltura.getText());
+        int posicion = Integer.parseInt(pos_hamadriades.getText());
+        ListHadas.get(posicion).setEdad(edad);
+        ListHadas.get(posicion).setNombre(Nombre);
+        ListHadas.get(posicion).setAltura(altura);
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void pos_lamiasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pos_lamiasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_pos_lamiasActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        String Nombre = tf_lamiasModificarNombre.getText();
+        int edad = Integer.parseInt(tf_lamiasModificarEdad.getText());
+        int altura = Integer.parseInt(tf_lamiasModificarAltura.getText());
+        int branquias = Integer.parseInt(tf_lamiasModificarBranquias.getText());
+        int aletas = Integer.parseInt(tf_lamiasModificarAletas.getText()), cont = 0;
+        int posicion = Integer.parseInt(pos_lamias.getText());
+        ListHadas.get(posicion).setEdad(edad);
+        ListHadas.get(posicion).setNombre(Nombre);
+        ListHadas.get(posicion).setAltura(altura);
+        ((Lamias) ListHadas.get(posicion)).setAletas(aletas);
+        ((Lamias) ListHadas.get(posicion)).setBranquias(branquias);
+
+    }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void tf_lamiasModificarBranquiasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_lamiasModificarBranquiasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_tf_lamiasModificarBranquiasActionPerformed
 
     private void jTabbedPane4StateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_jTabbedPane4StateChanged
         // TODO add your handling code here:
     }//GEN-LAST:event_jTabbedPane4StateChanged
 
-    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
-        int pos_borrar = Integer.parseInt(tf_borrar.getText());
-        ListHadas.remove(pos_borrar);
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton11ActionPerformed
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+        double salud = 683;
+        double poder = 71;
+        String Nombre = tf_salamandrasNombre.getText();
+        int edad = Integer.parseInt(tf_salamandrasEdad.getText());
+        int altura = Integer.parseInt(tf_salamandrasAltura.getText());
+        int alas = Integer.parseInt(tf_salamandrasNumeroAlas.getText());
+        ListHadas.add(new Salamandras(alas, Nombre, altura, edad, salud, poder));
+        AR.setListaHadas(ListHadas);
+        JOptionPane.showMessageDialog(this, "Se a agregado exitosamente");
+    }//GEN-LAST:event_jButton5ActionPerformed
 
-    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+        double salud = 563;
+        double poder = 67;
+        int alas = Integer.parseInt(tf_silfidesNumeroAlas.getText());
+        String Nombre = tf_silfidesNombre.getText();
+        int edad = Integer.parseInt(tf_silfidesEdad.getText());
+        int altura = Integer.parseInt(tf_silfidesAltura.getText());
+        ListHadas.add(new Silfides(alas, Nombre, altura, edad, salud, poder));
+        AR.setListaHadas(ListHadas);
+        JOptionPane.showMessageDialog(this, "Se a agregado exitosamente");
+    }//GEN-LAST:event_jButton4ActionPerformed
 
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        String Nombre = tf_amadriadesNombre.getText();
+        double salud = 373;
+        double poder = 78;
+        double saludArbol = 173;
+        int edad = Integer.parseInt(tf_amadriadesEdad.getText());
+        int altura = Integer.parseInt(Altura.getText());
+        Hadas Hamadrades = new Hamadriades(saludArbol, Nombre, altura, edad, salud, poder);
+        ListHadas.add(Hamadrades);
+        AR.setListaHadas(ListHadas);
+        JOptionPane.showMessageDialog(this, "Se a agregado exitosamente");
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        String Nombre = tf_lamiaNombre.getText();;
+        int edad = Integer.parseInt(tf_lamiaEdad.getText());
+        int altura = Integer.parseInt(tf_lamiaAltura.getText()), salud = 475, poder = 57;
+        int branquias = Integer.parseInt(tf_lamiaNumeroBranquias.getText());
+        int aletas = Integer.parseInt(tf_lamiaAletas.getText());
+        Hadas lamia = new Lamias(aletas, branquias, Nombre, altura, edad, salud, poder);
+        ListHadas.add(lamia);
+        JOptionPane.showMessageDialog(this, "Se a agregado exitosamente");
+        AR.setListaHadas(ListHadas);
+    }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jCheckBoxMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxMenuItem3ActionPerformed
         JFileChooser jfc = new JFileChooser();
         int seleccion = jfc.showOpenDialog(this);
         if (seleccion == JFileChooser.APPROVE_OPTION) {
             AR.setArchivo(jfc.getSelectedFile());
             AR.CargarArchivo();
+            ListHadas = AR.getListaHadas();
             JOptionPane.showMessageDialog(this, "Archivo cargado exitosamente");
         }        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton13ActionPerformed
+    }//GEN-LAST:event_jCheckBoxMenuItem3ActionPerformed
 
-    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+    private void jCheckBoxMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxMenuItem1ActionPerformed
         if (AR.getArchivo() == null) {
             JFileChooser jfc = new JFileChooser();
             int seleccion = jfc.showSaveDialog(this);
@@ -1216,9 +1197,9 @@ public class Principal extends javax.swing.JFrame {
         } else {
             AR.escribirArchivo();
         }        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton14ActionPerformed
+    }//GEN-LAST:event_jCheckBoxMenuItem1ActionPerformed
 
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+    private void jCheckBoxMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxMenuItem2ActionPerformed
 
         JFileChooser jfc = new JFileChooser();
         int seleccion = jfc.showSaveDialog(this);
@@ -1229,13 +1210,28 @@ public class Principal extends javax.swing.JFrame {
         } else {
             JOptionPane.showMessageDialog(this, "El archivo no pudo ser guardado");
         }        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton15ActionPerformed
+    }//GEN-LAST:event_jCheckBoxMenuItem2ActionPerformed
 
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
-        System.exit(0);
+    private void jCheckBoxMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxMenuItem4ActionPerformed
+        System.exit(0);        // TODO add your handling code here:
+    }//GEN-LAST:event_jCheckBoxMenuItem4ActionPerformed
 
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton16ActionPerformed
+    private void jCheckBoxMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxMenuItem5ActionPerformed
+        JOptionPane.showMessageDialog(null, "Este es un juego para la organizacion \n"
+                + "de Honduras, ya que se encuentra\n"
+                + "en conflico con muchas maras, es por eso\n"
+                + "que recurrieron a los seres magicos que \n"
+                + "son llamados Hadas y de estos se \n"
+                + "encuentran muchos tipos.\n"
+                + "Aventurate a una lluvia de peleas, ya \n"
+                + "que se necesita a un maton como usted.\n"
+                + "\n"
+                + "Le deseamos suerte\n"
+                + "\n"
+                + "Att. DPI (Direccion Policial de Investigacion)\n"
+                + "\n"
+                + "");
+    }//GEN-LAST:event_jCheckBoxMenuItem5ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1277,11 +1273,6 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
@@ -1290,6 +1281,13 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
+    private javax.swing.JCheckBoxMenuItem jCheckBoxMenuItem1;
+    private javax.swing.JCheckBoxMenuItem jCheckBoxMenuItem2;
+    private javax.swing.JCheckBoxMenuItem jCheckBoxMenuItem3;
+    private javax.swing.JCheckBoxMenuItem jCheckBoxMenuItem4;
+    private javax.swing.JCheckBoxMenuItem jCheckBoxMenuItem5;
+    private javax.swing.JCheckBoxMenuItem jCheckBoxMenuItem6;
+    private javax.swing.JCheckBoxMenuItem jCheckBoxMenuItem7;
     private javax.swing.JFormattedTextField jFormattedTextField1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -1328,13 +1326,14 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
-    private javax.swing.JPanel jPanel14;
-    private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -1348,12 +1347,10 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTabbedPane jTabbedPane3;
     private javax.swing.JTabbedPane jTabbedPane4;
-    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField pos_Salamandras;
     private javax.swing.JTextField pos_Silfides;
     private javax.swing.JTextField pos_hamadriades;

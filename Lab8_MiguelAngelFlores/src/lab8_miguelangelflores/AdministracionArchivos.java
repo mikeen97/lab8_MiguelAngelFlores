@@ -19,7 +19,7 @@ import java.util.ArrayList;
  * @author Miguel Flores
  */
 public class AdministracionArchivos {
-    
+
     private ArrayList<Hadas> ListaHadas = new ArrayList();
     private File archivo = null;
 
@@ -52,35 +52,34 @@ public class AdministracionArchivos {
         try {
             ListaHadas = new ArrayList();
             Hadas temp;
-           
+
             if (archivo.exists()) {
                 FileInputStream entrada = null;
                 ObjectInputStream objeto = null;
-                
+
                 try {
                     entrada
                             = new FileInputStream(archivo);
                     objeto
                             = new ObjectInputStream(entrada);
-                    
+
                     while ((temp = (Hadas) objeto.readObject()) != null) {
                         ListaHadas.add(temp);
-                        
+
                     }
                 } catch (EOFException e) {
                     //Encontro el final del archivo
                 }
-                
+
                 objeto.close();
                 entrada.close();
 
             }
         } catch (Exception e) {
-            
+
         }
 
     }
-   
 
     public void escribirArchivo() {
         FileOutputStream fw = null;

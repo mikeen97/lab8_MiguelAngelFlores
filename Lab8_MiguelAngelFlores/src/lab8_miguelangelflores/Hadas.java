@@ -5,11 +5,13 @@
  */
 package lab8_miguelangelflores;
 
+import java.io.Serializable;
+
 /**
  *
  * @author Miguel Flores
  */
-public class Hadas {
+public class Hadas implements Serializable {
 
     private String nombre;
     private int altura;
