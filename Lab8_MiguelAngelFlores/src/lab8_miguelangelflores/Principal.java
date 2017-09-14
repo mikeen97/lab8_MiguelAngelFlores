@@ -954,6 +954,11 @@ public class Principal extends javax.swing.JFrame {
         jCheckBoxMenuItem7.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_X, java.awt.event.InputEvent.ALT_MASK | java.awt.event.InputEvent.CTRL_MASK));
         jCheckBoxMenuItem7.setSelected(true);
         jCheckBoxMenuItem7.setText("Poema");
+        jCheckBoxMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBoxMenuItem7ActionPerformed(evt);
+            }
+        });
         jMenu2.add(jCheckBoxMenuItem7);
 
         jMenuBar1.add(jMenu2);
@@ -1063,6 +1068,7 @@ public class Principal extends javax.swing.JFrame {
         ListHadas.get(posicion).setNombre(Nombre);
         ListHadas.get(posicion).setAltura(altura);
         ((Salamandras) ListHadas.get(posicion)).setAlas(alas);
+        AR.escribirArchivo();
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void pos_SilfidesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pos_SilfidesActionPerformed
@@ -1232,6 +1238,19 @@ public class Principal extends javax.swing.JFrame {
                 + "\n"
                 + "");
     }//GEN-LAST:event_jCheckBoxMenuItem5ActionPerformed
+
+    private void jCheckBoxMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxMenuItem7ActionPerformed
+
+        JOptionPane.showMessageDialog(null, "Alexis con capacidad,\n"
+                + "Se presenta cada dia,\n"
+                + "A su deebr con responsabilidad,\n"
+                + "Expresano su sabiduria,\n"
+                + "Enseño a muchos,\n"
+                + "Para que formarán su vida cada vez que venian\n"
+                + "Ahora todos los dias lucho,\n"
+                + "Por ganarme los puntos cada dia\n"
+                + "");
+    }//GEN-LAST:event_jCheckBoxMenuItem7ActionPerformed
 
     /**
      * @param args the command line arguments
