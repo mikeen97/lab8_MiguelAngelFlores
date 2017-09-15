@@ -1085,6 +1085,7 @@ public class Principal extends javax.swing.JFrame {
         ListHadas.get(posicion).setNombre(Nombre);
         ListHadas.get(posicion).setAltura(altura);
         ((Silfides) ListHadas.get(posicion)).setAlas(alas);
+        AR.escribirArchivo();
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void tf_SilfidesModificarAlturaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_SilfidesModificarAlturaActionPerformed
@@ -1103,6 +1104,7 @@ public class Principal extends javax.swing.JFrame {
         ListHadas.get(posicion).setEdad(edad);
         ListHadas.get(posicion).setNombre(Nombre);
         ListHadas.get(posicion).setAltura(altura);
+        AR.escribirArchivo();
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void pos_lamiasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pos_lamiasActionPerformed
@@ -1121,7 +1123,7 @@ public class Principal extends javax.swing.JFrame {
         ListHadas.get(posicion).setAltura(altura);
         ((Lamias) ListHadas.get(posicion)).setAletas(aletas);
         ((Lamias) ListHadas.get(posicion)).setBranquias(branquias);
-
+        AR.escribirArchivo();
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void tf_lamiasModificarBranquiasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_lamiasModificarBranquiasActionPerformed
