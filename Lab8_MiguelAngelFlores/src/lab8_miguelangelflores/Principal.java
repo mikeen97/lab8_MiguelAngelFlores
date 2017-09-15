@@ -1208,7 +1208,6 @@ public class Principal extends javax.swing.JFrame {
     }//GEN-LAST:event_jCheckBoxMenuItem1ActionPerformed
 
     private void jCheckBoxMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBoxMenuItem2ActionPerformed
-
         JFileChooser jfc = new JFileChooser();
         int seleccion = jfc.showSaveDialog(this);
         if (seleccion == JFileChooser.APPROVE_OPTION) {

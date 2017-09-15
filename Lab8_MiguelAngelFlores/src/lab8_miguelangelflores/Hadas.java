@@ -6,12 +6,13 @@
 package lab8_miguelangelflores;
 
 import java.io.Serializable;
+import javax.swing.text.AbstractDocument;
 
 /**
  *
  * @author Miguel Flores
  */
-public class Hadas implements Serializable {
+public abstract class Hadas implements Serializable {
 
     private String nombre;
     private int altura;
@@ -75,4 +76,5 @@ public class Hadas implements Serializable {
         return nombre;
     }
 
+    abstract int pijaso();
 }
